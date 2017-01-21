@@ -203,7 +203,8 @@ SET SECOND=!SECOND:%out_m2v%=-passlogfile "%out_path%ffmpeg" -pass 2 %out_m2v%!
 
 :twopasslog
 setlocal DisableDelayedExpansion
-SET ORIGINAL=%ORIGINAL:_$$§§$$_=!%
+SET FIRST=%FIRST:_$$§§$$_=!%
+SET SECOND=%SECOND:_$$§§$$_=!%
 ECHO ^<%date%  %time%^> 
 ECHO File Name: %infile%
 ECHO Encoding Mode: %mode%   HQ: %HQ%   Custom Quant Matrix: %Matrix%

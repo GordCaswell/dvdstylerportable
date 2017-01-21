@@ -1,17 +1,29 @@
+Version 3.0.3 <2017-01-01>
+--------------------------
+
+  * disabled copy option for non-MPEG2 video streams
+  * added parameter "-pix_fmt yuv420p" to transcoder
+  * fixed displaying first video frame in frame button
+  * changed transcoding caching to allow put multiple equal video files on DVD (e.g. with different cut points)
+  * added support of EXIF metadata in slideshow
+  * added CBR option for menu and slideshow enoding settings (disabled by default)
+  * added Bulgarian translation (thanks to Ivan Dobrev)
+  * win32/win64: updated Manolito's VBR plug-in
+  
 Version 3.0.2 <2016-08-21>
 --------------------------
 
   * improved handling of process messages
-  * updated Manolito's VBR plug-in and enabled by default
   * changed encoding of menu and slideshow to use constant bitrate (CBR)
   * fixed using of transcoding cache after restarting of DVDStyler
+  * win32/win64: updated Manolito's VBR plug-in and enabled by default
   * win32/win64: updated ffmpeg to version 3.1.2 (rogerdpack build with Windows-XP patch)
   
 Version 3.0.1 <2016-07-27>
 --------------------------
 
   * fixed using of transcoding cache after restarting of DVDStyler
-  * included Manolito's VBR plug-in
+  * win32/win64: included Manolito's VBR plug-in
 
 Version 3.0 <2016-07-02>
 ------------------------
