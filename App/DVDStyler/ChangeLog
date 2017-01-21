@@ -1,3 +1,12 @@
+Version 3.0.2 <2016-08-21>
+--------------------------
+
+  * improved handling of process messages
+  * updated Manolito's VBR plug-in and enabled by default
+  * changed encoding of menu and slideshow to use constant bitrate (CBR)
+  * fixed using of transcoding cache after restarting of DVDStyler
+  * win32/win64: updated ffmpeg to version 3.1.2 (rogerdpack build with Windows-XP patch)
+  
 Version 3.0.1 <2016-07-27>
 --------------------------
 
@@ -19,7 +28,7 @@ Version 3.0 <2016-07-02>
   * audio normalization: added clipping protection
   * interlaced encoding: added -alternate_scan parameter
   * added clear cache button in settings dialog
-  * added support Manolito's VBR plug-in
+  * added support of Manolito's VBR plug-in
   * added scrollbar to video object box in title properties
   * added support of metadata (chapter and audio/subtitle language names)
   * added possibility to force display subtitles (but it doesn't work in VLC)
